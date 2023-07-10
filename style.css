@@ -94,7 +94,7 @@ nav{
 /* banner section end */
 /* service section start */
 .service-container{
-    background: url(asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background: url(asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0));
     width:100%;
     background-position: center;
     background-blend-mode:overlay;
@@ -112,7 +112,7 @@ nav{
     justify-content: center;
     align-items: flex-start;
     flex-direction:column;
-    padding-left: 120px;
+    padding-left: 40px;
     width:50%;
 }
 .service-info h1{
@@ -177,6 +177,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:-40px;
 }
 
 .skill-info{
@@ -190,6 +191,7 @@ width:700px;
     float:right;
     column-gap: 15px;
     row-gap: 15px;
+    
 
 }
 .skill{
@@ -215,27 +217,83 @@ width:700px;
 /* sercice section end */
 
 /* contact div start */
+
 .contact-div{
-    width:75%;
-    height: 190px;
-    background-color: rgb(230, 40, 40);
+    width:80%;
+    height: 200px;
+    background-color: rgb(245, 44, 44);
     color: white;
     position: absolute;
     top: -97px;
-    left: 212px;
+    left: 85px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     border-radius:10px;
 
 }
+
+
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:40%;
+    margin-left:-20px;
+}
 .phone img{
-    width:100px;
+    width:130px;
+    height:130px;
+    margin-left: 20px;
+}
+.phone-number{
+    margin-left: 20px;
+padding-right:10px;
+    border-right: 3px solid gray;
+}
+.phone-number p{
+    /* width:50%; */
+    font-weight:900;
+    margin-top:20px;
+    font-size: 14px;
+    
+}
+.phone-number h1{
+     font-size:40px;
+     margin-top:-10px;
+}
+
+
+.contact-detail{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+
+}
+.contact-detail p{
+    font-size: 20px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+.btn5{
+    width:220px;
     height:80px;
+    border-radius: 30px;
+    background-color: #d3cccc;
+    font-size: 17px;
+    font-weight: 100;
+    border:none;
+    outline: none;
 }
 .blog-div{
     width:100%;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
